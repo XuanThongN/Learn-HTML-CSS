@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hành trình tỏa sáng - ThongBarber</title>
+    <!-- Link Logo -->
+    <link rel="shortcut icon" href="./img/barberLogo.png" type="image/x-icon" />
+    <!-- Link bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Link tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Link fontawesome -->
+    <script src="https://kit.fontawesome.com/36b50e8e6f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <!-- Link jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="new-header shadow">
+      <div id="new-header__container">
+        <div class="navbar">
+          <div class="nav-logo">
+            <a href="#">
+              <i class="fa-solid fa-scissors"></i>
+              ThongBarber
+            </a>
+          </div>
+          <div id="nav" class="nav-menu">
+            <ul class="menu">
+              <li class="menu-item menu-link">
+                <img class="icon-mb" src="./img/Service.76b0a235.svg" alt="">
+                <a href="./index.html">Trang chủ</a>
+              </li>
+              <li class="menu-item menu-link">
+                <img class="icon-mb" src="./img/service-icon.svg" alt=""><a href="./about.html">Giới thiệu</a>
+              </li>
+              <li class="menu-item menu-link">
+                <img class="icon-mb" src="./img/journey-icon.svg" alt=""><a href="./journey.html">Hành trình</a>
+              </li>
+              <li class="menu-item menu-link">
+                <img class="icon-mb" src="./img/barber-icon.svg" alt=""><a href="./index.html#barber">Barber</a>
+              </li>
+              <li>
+                <button
+                  class="btn-close btn-menu-mobile-close w-1/6"
+                  role="button"
+                ></button>
+              </li>
+              <li>
+                <div class="menu-item btn-1">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <a id="myBtn">Đăng nhập</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-menu__mobile">
+            <button class="mobile-login_button btn-1">Đăng nhập</button>
+            <div class="menu-button menu-item btn-openMenuMobile">
+              <img src="./img/menuMobileButton.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav2">
+      <ul class="nav2-menu">
+        <li class="nav2-item">
+          <a href="index.html">Trang chủ</a>
+        </li>
+        <li class="nav2-item">Hành trình tỏa sáng</li>
+      </ul>
+    </div>
+
+    <!-- End header -->
+    <div class="content">
+      <div class="shop-name-top">
+        <div class="shop-name-top__title">
+          <p>Hành trình tỏa sáng</p>
+        </div>
+        <div class="shop-name-top__subtitle">
+          <p>
+            Quá trình tìm kiếm và hoàn thiện bản thân là bất tận. Mỗi kiểu tóc
+            mới đại diện một tinh thần mới mà người đàn ông luôn hướng đến để
+            tìm thấy phiên bản tốt nhất của chính mình. Hãy cùng lắng nghe những
+            câu chuyện hành trình lột xác dưới đây để tìm thấy niềm cảm hứng đổi
+            mới cho bạn.
+          </p>
+        </div>
+      </div>
+      <div class="journey-list-1">
+        <a href="#" class="journey-1">
+          <div class="journey-1-img">
+            <img src="./img/30shine-lot-xac-thanh-hot-boy.jpg" alt="" />
+          </div>
+          <div class="journey-1-detail">
+            <div class="journey-1-title">
+              <p>Bạn sinh viên it lột xác thành hot boy vạn người mê</p>
+            </div>
+            <div class="journey-1-subtitle">
+              <p>
+                Ai nghĩ sinh viên IT là người xuề xoà, không quá quan tâm đến
+                ngoại hình thì xem ngay màn lột xác mái tóc, thay đổi ngoại hình
+                cực ấn tượng này nhé
+              </p>
+            </div>
+            <div class="journey-1-footer">
+              <span>425K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-1">
+          <div class="journey-1-img">
+            <img src="./img/30shine-toc-mullet.jpg" alt="" />
+          </div>
+          <div class="journey-1-detail">
+            <div class="journey-1-title">
+              <p>
+                Phúc lột xác mái tóc để suốt bao năm giúp ngoại hình mới cực
+                cuốn hút
+              </p>
+            </div>
+            <div class="journey-1-subtitle">
+              <p>
+                Thay đổi kiểu tóc đã để suốt bao năm là một quyết định vô cùng
+                khó khăn nhưng Phúc đã vượt qua nỗi sợ đó và tạo một kiểu tóc
+                mới hoàn toàn
+              </p>
+            </div>
+            <div class="journey-1-footer">
+              <span>470K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="journey-list-2">
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-1.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Diễn viên Chung Super lột xác để chuẩn bị bộ phim sắp ra mắt</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Vai diễn mới đòi hỏi Chung Super một tạo hình mới. Với kiểu tóc mới tạo kiểu này, chắc chắn anh Chung sẽ có vai diễn rất thành công
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>33K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-2.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Kiểu tóc mới cho tác phẩm solo đầu tay của rapper RTEE</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Rapper trẻ RTEE sắp ra mắt tác phẩm solo đầu tay. Anh cần một hình ảnh mới, một kiểu tóc mới để đánh dấu bước chuyển mình này.
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>133K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-3.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Top những kiểu tóc kinh điển của Tronie Ngô, cứ để là năng động và khoẻ khoắn</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Ngoại hình khỏe khoắn và năng động của Tronie Ngô 365Daband càng được tôn lên nhờ kiểu tóc Faux Hawk này.
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>80K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-4.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Diễn viên Hoàng Phi Kha lột xác cho vai diễn mới</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Vẻ nam thần điển trai của Hoàng Phi Kha được thể hiện siêu nét qua kiểu tóc này. Chắc chắn anh Kha sẽ có những vai diễn ấn tượng và ghi dấu trong lòng khán giả
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>64K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/30shine-thay-doi-ngoai-hinh.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Thay đổi ngoại hình, chàng trai lạnh lùng, ít nói khiến cô hoa khôi rung động</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Hiếu từng nghĩ đàn ông không cần quá quan tâm đến ngoại hình cho đến khi thay đổi kiểu tóc mới, những cơ hội, mối quan hệ chợt rộng mở.
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>344K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/30shine-nam-sinh-kien-truc-lot-xac.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Can đảm thay đổi mái tóc 7 năm, nam sinh Kiến Trúc lột xác kiểu tóc mới cực đẹp</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Anh bạn sinh viên Kiến Trúc đắn đo rất nhiều về việc cắt bỏ mái tóc đã để 7 năm, gắn liền với nhiều kỉ niệm. Và anh quyết định phải thay đổi.
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>84K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-5.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Mặt tròn để kiểu tóc này như An Nguyễn thì siêu hợp và tôn gương mặt</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Nhiều người nghĩ mặt tròn khó tạo kiểu nhưng bạn sẽ phải nghĩ khác khi xem clip lột xác này của An Nguyễn đấy
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>126K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-6.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Bạn sinh viên đại học QGHN đổi kiểu tóc cái tạo ngay điểm nhấn mới cho gương mặt</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Nam sinh đại học QGHN đã có màn lột xác cực kì ấn tượng với kiểu tóc mới tại 30Shine. Ai bảo mặt tròn không tạo kiểu đẹp được thì nên xem video này ngay nhé
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>53K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="journey-list-1">
+        <a href="#" class="journey-1">
+          <div class="journey-1-img">
+            <img src="./img/journey-list-2-7.jpg" alt="" />
+          </div>
+          <div class="journey-1-detail">
+            <div class="journey-1-title">
+              <p>Khôi Nguyên tìm ngay được mảnh ghép còn thiếu kể từ khi thay đổi kiểu tóc này</p>
+            </div>
+            <div class="journey-1-subtitle">
+              <p>
+                “Từ trước đến nay, em chưa bao giờ quan tâm đến ngoại hình cho đến khi gặp Kiều Anh” - Khôi Nguyên chia sẻ
+              </p>
+            </div>
+            <div class="journey-1-footer">
+              <span>328K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-1">
+          <div class="journey-1-img">
+            <img src="./img/journey-list-2-8.jpg" alt="" />
+          </div>
+          <div class="journey-1-detail">
+            <div class="journey-1-title">
+              <p>
+                Phúc lột xác mái tóc để suốt bao năm giúp ngoại hình mới cực
+                cuốn hút
+              </p>
+            </div>
+            <div class="journey-1-subtitle">
+              <p>
+                Thay đổi kiểu tóc đã để suốt bao năm là một quyết định vô cùng
+                khó khăn nhưng Phúc đã vượt qua nỗi sợ đó và tạo một kiểu tóc
+                mới hoàn toàn
+              </p>
+            </div>
+            <div class="journey-1-footer">
+              <span>367K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="journey-list-2">
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-9.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Bỏ suy nghĩ không quan tâm đến ngoại hình, nam sinh CĐ Y tế Bạch Mai lột xác với kiểu tóc mới</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Từ khi lên đại học mình đã bỏ hẳn suy nghĩ đàn ông không cần quan tâm đến ngoại hình. Điều đầu tiên mình thay đổi chính là mái tóc.
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>425K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-10.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Đạt đã thay đổi kiểu tóc gì khiến cơ hội ngày càng rộng mở hơn với bạn ấy?</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Vì công việc mới đòi hỏi giao tiếp với khách hàng thường xuyên nên Đạt đã quyết định chọn kiểu tóc này. Nó giúp Đạt gây được ấn tượng cực mạnh với đối tác
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>367K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-11.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Lột xác anh bạn nghiện học quên mình thành hotboy mà các bạn nữ phải ao ước</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Quá chú tâm vào việc học nên Minh Quốc quên mất việc phải chăm sóc bản thân. Vừa rồi cậu bạn đã đạt thành tích cao trong kì tuyển sinh đại học nên quyết định lột xác mái tóc cho dấu mốc quan trọng này.
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>1.4M views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-12.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Hiếu Xù từ bỏ biệt danh sau màn lột xác cực kì ngoạn mục này</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Hiếu đã biết mình phải làm gì kể từ khi gặp Kim Anh. Việc đầu tiên là phải bỏ ngay hình ảnh Hiếu xù bằng một kiểu tóc mới
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>191K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="#" class="journey-2">
+          <div class="journey-2-img">
+            <img src="./img/journey-list-2-13.jpg" alt="" />
+          </div>
+          <div class="journey-2-detail">
+            <div class="journey-2-title">
+              <p>Chuẩn bị đón thử thách mới, Ngọc Thọ lột xác với kiểu tóc cực tự tin</p>
+            </div>
+            <div class="journey-2-subtitle">
+              <p>
+                Để thuận lợi xin việc sau khi ra trường, Thọ cần chuẩn bị cho mình một ngoại hình thật chỉn chu. Cậu sinh viên năm cuối quyết định lột xác
+              </p>
+            </div>
+            <div class="journey-2-footer">
+              <span>172K views</span>
+              <img class="icon-youtube" src="./img/icon-youtube.svg" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- <div class="list-product">
+            <div class="product">
+                <div class="product-detail">
+                    <div class="product-title">
+                        Các sản phẩm của chúng tôi
+                    </div>
+                    <div class="product-subtitle">
+                        ThongBarber Store mang đến những sản phẩm của những thương hiệu hàng đầu thế giới được nhiều người
+                        ưa dùng.
+                    </div>
+                </div>
+                <div class="product-img">
+                    <img src="./img/about03_team_1_img.webp" alt="">
+                </div>
+            </div>
+            <div class="product flex-row-reverse">
+                <div class="product-detail">
+                    <div class="product-title">
+                        Chi tiết sản phẩm
+                    </div>
+                    <div class="product-subtitle">
+                        Bất cứ sản phẩm nào không đạt được tiêu chuẩn sẽ được loại bỏ và tiêu hủy lập tức. Sản phẩm hoàn thiện đồng nhất đảm bảo chất lượng đưa tới tay người tiêu dùng.
+                    </div>
+                </div>
+                <div class="product-img">
+                    <img src="./img/about03_team_2_img.webp" alt="">
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-detail">
+                    <div class="product-title">
+                        Đảm bảo chất lượng
+                    </div>
+                    <div class="product-subtitle">
+                        Tất cả sản phẩm của chúng tôi đều được đảm bảo thích ứng tốt với người Việt Nam, không gây các tác dụng phụ hay ảnh hưởng đến sức khỏe khi sử dụng lâu dài. Mọi tác động đến sức khỏe có nguyên nhân từ sản phẩm của chúng tôi đều được công ty chịu hoàn toàn trách nhiệm.
+                    </div>
+                </div>
+                <div class="product-img">
+                    <img src="./img/about03_team_3_img.webp" alt="">
+                </div>
+            </div>
+            <div class="product flex-row-reverse ">
+                <div class="product-detail">
+                    <div class="product-title">
+                        Chúng tôi luôn lắng nghe
+                    </div>
+                    <div class="product-subtitle">
+                        ThongBarber Store luôn lắng nghe phản hồi, góp ý từ phía khách hàng nhằm ngày càng cải thiện chất lượng dịch vụ, sản phẩm tốt hơn tới tay khách hàng
+                    </div>
+                </div>
+                <div class="product-img">
+                    <img src="./img/about03_team_4_img.webp" alt="">
+                </div>
+            </div>
+            <div class="product mb-11">
+                <div class="product-detail">
+                    <div class="product-title">
+                        Tại sao chọn chúng tôi
+                    </div>
+                    <div class="product-subtitle">
+                        Vì sứ mệnh tạo nên những giá trị thương hiệu, chúng tôi đã, đang và sẽ luôn nỗ lực hết mình vì sự phát triển – khẳng định thương hiệu Việt, mang lại những giá trị lâu dài cho doanh nghiệp.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-product-2">
+            <div class="service__list-layout">
+                <div class="list-item">
+                    <img src="./img/list-product2-1.webp" alt="" class="item-image" />
+                    <a href="#" class="item-content">
+                        <div class="item-title">Giá trị cốt lõi</div>
+                        <div class="item-subTitle">Với cốt lõi luôn xem khách hàng là bạn hàng. Chúng tôi mong muốn đem đến cho các khách hàng, đối tác của mình những sản phẩm, dịch vụ với chất lượng vượt trội.</div>
+                    </a>
+
+                    </a>
+                </div>
+                <div class="list-item">
+                    <img src="./img/list-product2-2.webp" alt="" class="item-image" />
+                    <a href="#" class="item-content">
+                        <div class="item-title">Tầm nhìn và Sứ mệnh</div>
+                        <div class="item-subTitle">ThongBarber Store tin tưởng & nỗ lực mỗi ngày để mang đến những sản phẩm chất lượng cho phái mạnh toàn cầu kiểu tóc khỏe đẹp, làn da khoẻ mạnh cuốn hút phái đẹp; tinh thần thư giãn để bứt phá trong sự nghiệp.</div>
+                    </a>
+
+                    </a>
+                </div>
+                <div class="list-item">
+                    <img src="./img/list-product2-3.webp" alt="" class="item-image" />
+                    <a href="#" class="item-content">
+                        <div class="item-title">Thế mạnh của chúng tôi?</div>
+                        <div class="item-subTitle">Cam kết cung cấp các sản phẩm chính hãng 100%. Số lượng sản phẩm lớn nhất với chủng loại đa dạng, phong phú sẽ đáp ứng tất cả nhu cầu mua sắm của bạn.</div>
+                    </a>
+
+                    </a>
+                </div>
+                <div class="list-item">
+                    <img src="./img/list-product2-4.webp" alt="" class="item-image" />
+                    <a href="#" class="item-content">
+                        <div class="item-title">Hỗ trợ khách hàng 24/7
+                        </div>
+                        <div class="item-subTitle">Trong trường hợp Quý Khách hàng có ý kiến đóng góp/khiếu nại liên quan đến chất lượng sản phẩm, Quý Khách hàng vui lòng liên hệ đường dây chăm sóc khách hàng của chúng tôi.</div>
+                    </a>
+
+                    </a>
+                </div>
+                <div class="list-item">
+                    <img src="./img/list-product2-5.webp" alt="" class="item-image" />
+                    <a href="#" class="item-content">
+                        <div class="item-title">Đổi trả, hoàn tiền</div>
+                        <div class="item-subTitle">ThongBarber Store tin tưởng & nỗ lực mỗi ngày để mang đến những sản phẩm chất lượng cho phái mạnh toàn cầu kiểu tóc khỏe đẹp, làn da khoẻ mạnh cuốn hút phái đẹp; tinh thần thư giãn để bứt phá trong sự nghiệp.</div>
+                    </a>
+
+                </div>
+                <div class="list-item">
+                    <img src="./img/list-product2-6.webp" alt="" class="item-image" />
+                    <a href="#" class="item-content">
+                        <div class="item-title">Chính sách bảo mật</div>
+                        <div class="item-subTitle">ThongBarber Store tin tưởng & nỗ lực mỗi ngày để mang đến những sản phẩm chất lượng cho phái mạnh toàn cầu kiểu tóc khỏe đẹp, làn da khoẻ mạnh cuốn hút phái đẹp; tinh thần thư giãn để bứt phá trong sự nghiệp.</div>
+                    </a>
+
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-black">
+      <div class="footer-wrapper max-w-7xl m-auto">
+        <div class="footer-top flex justify-between">
+          <div class="footer-top-info w-1/3 pt-9">
+            <ul class="footer-top-info__menu">
+              <li class="footer-top-info__item">
+                <span>CÔNG TY TMDV ThongBarber</span>
+              </li>
+              <li class="footer-top-info__item">
+                <span>176 Trần Phú, P.Phước Vĩnh, TP.Huế</span>
+              </li>
+              <li class="footer-top-info__item">
+                <span>Số giấy chứng nhận kinh doanh: 010.1237.693</span>
+              </li>
+              <li class="footer-top-info__item">
+                <span>Ngày cấp: 01/01/2022</span>
+              </li>
+              <li class="footer-top-info__item">
+                <span>Nơi cấp: Sở kế hoạch đầu tư TP.Huế</span>
+              </li>
+              <li class="footer-top-info__item">
+                <a class="footer-top-info__item-text" href="#"
+                  >Chính sách bảo mật thông tin</a
+                >
+              </li>
+              <li class="footer-top-info__item">
+                <a class="footer-top-info__item-text" href="#"
+                  >Liên hệ quảng cáo ThongBarber</a
+                >
+              </li>
+              <li class="footer-top-info__ca flex items-center py-3">
+                <a href="#">
+                  <img
+                    class="moit-icon"
+                    src="./img/congthuongicon.png"
+                    alt=""
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    class="dmca-icon"
+                    src="./img/dmca_protected_26_120.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="footer-top-info__cash">
+                <span>Chấp nhận thanh toán</span>
+                <a href="#">
+                  <div class="cash flex">
+                    <a cFlass="cash-mastercard" href="#">
+                      <img src="./img/mastercard.1c44b057.svg" alt="" />
+                    </a>
+                    <a class="cash-visa" href="#">
+                      <img src="./img/visa.a04c8520.svg" alt="" />
+                    </a>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top-service w-1/3 pt-9">
+            <div class="service-time">
+              <div>
+                <span class="service-time__label">Giờ phục vụ</span>
+              </div>
+              <ul>
+                <li>
+                  <span class="service-time__detail"
+                    >Thứ 2 đến thứ 6: 8h00 - 21h00</span
+                  >
+                </li>
+                <li>
+                  <span class="service-time__detail"
+                    >Thứ 7, chủ nhật: 7h30 - 21h00</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="service-hotline service-hotline__top">
+              <a href="tel:1800282830">
+                <img src="./img/phone-2.c10e8fc8.svg" alt="" />
+                <span>HOTLINE: 1800.28.28.30 (Miễn phí)</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-top-app w-1/3 pt-9">
+            <div class="app-info">
+              <span class="app-info__label">TẢI ỨNG DỤNG CỦA THONGBARBER</span>
+              <span class="app-info__detail"
+                >Trải nghiệm đặt lịch nhanh chóng và nhiều tiện ích khác với ứng
+                dụng ThongBarber.</span
+              >
+            </div>
+            <div class="app-badge">
+              <div class="badge-item">
+                <a href="#">
+                  <img src="./img/google-play.png" alt="" />
+                </a>
+              </div>
+              <div class="badge-item">
+                <a href="#">
+                  <img src="./img//app-store.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="social-info">
+              <div class="app-info">
+                <span class="app-info__label">THAM GIA CỘNG ĐỒNG</span>
+                <span class="app-info__detail"
+                  >Cùng 2.5tr thành viên ThongBarber</span
+                >
+              </div>
+              <div class="app-badge">
+                <div class="badge-item">
+                  <a href="#">
+                    <img src="./img/tiktok.f8f5f422.svg" alt="" />
+                  </a>
+                </div>
+                <div class="badge-item">
+                  <a href="#">
+                    <img src="./img/youtube-social.fb8ca13e.svg" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-hotline service-hotline__bottom hidden">
+              <a class="justify-center" href="tel:1800282830">
+                <img src="./img/phone-2.c10e8fc8.svg" alt="" />
+                <span>HOTLINE: 1800.28.28.30 (Miễn phí)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom flex">
+          <span class="copyright"
+            >Copyright 2022 ThongBarber, Inc. All Rights Reserved</span
+          >
+          <ul class="footer-nav flex">
+            <li class="footer-nav__item"><a href="#">Về ThongBarber</a></li>
+            <li class="footer-nav__item"><a href="#">Tuyển dụng</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Modal login -->
+    <div id="myModal" class="login-modal hidden">
+      <div
+        class="login-container absolute z-90 flex flex-col rounded-lg shadow-lg bg-white mx-auto"
+      >
+        <div class="flex justify-end">
+          <span class="modal-head w-5/6 text-xl text-center uppercase font-bold"
+            >Đăng nhập</span
+          >
+          <button
+            class="btn-close btn-close__login w-1/6"
+            role="button"
+          ></button>
+        </div>
+        <div class="modal-sdt text-lg text-center">
+          Số điện thoại của anh là gì ạ?
+        </div>
+        <input
+          type="tel"
+          name=""
+          id=""
+          class="modal-sdt_input text-left"
+          placeholder="Ví dụ: 0912.xxx.xxx"
+        />
+        <button type="submit" class="modal-btn__submit justify-center">
+          Tiếp tục
+        </button>
+      </div>
+    </div>
+    <!-- End Modal login -->
+
+    <!-- Float buttons -->
+    <div class="float__buttons">
+      <div class="float__button-close hidden">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <a href="#" class="float__button back-to-top">
+        <div class="float-icon">
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+      </a>
+      <a href="tel:1800282830" class="float__button call">
+        <div class="float-icon">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+      </a>
+      <a href="https://fb.com/" class="float__button messenger">
+        <div class="float-icon">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </div>
+      </a>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

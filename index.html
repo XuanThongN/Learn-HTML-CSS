@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Chủ - ThongBarber</title>
+  <!-- Link Logo -->
+  <link rel="shortcut icon" href="./img/barberLogo.png" type="image/x-icon" />
+  <!-- Link bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Link tailwind css -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Link fontawesome -->
+  <script src="https://kit.fontawesome.com/36b50e8e6f.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- Link jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+</head>
+
+<body>
+  <div class="new-header shadow">
+    <div id="new-header__container">
+      <div class="navbar ">
+        <div class="nav-logo">
+          <a href="#">
+            <i class="fa-solid fa-scissors"></i>
+            ThongBarber
+          </a>
+        </div>
+        <div id="nav" class="nav-menu">
+          <ul class="menu">
+            <li class="menu-item menu-link">
+              <img class="icon-mb" src="./img/Service.76b0a235.svg" alt="">
+              <a href="./index.html">Trang chủ</a>
+            </li>
+            <li class="menu-item menu-link">
+              <img class="icon-mb" src="./img/service-icon.svg" alt=""><a href="./about.html">Giới thiệu</a>
+            </li>
+            <li class="menu-item menu-link">
+              <img class="icon-mb" src="./img/journey-icon.svg" alt=""><a href="./journey.html">Hành trình</a>
+            </li>
+            <li class="menu-item menu-link">
+              <img class="icon-mb" src="./img/barber-icon.svg" alt=""><a href="#barber">Barber</a>
+            </li>
+            <li><button class="btn-close btn-menu-mobile-close w-1/6" role="button">
+              </button></li>
+            <li>
+              <div class="menu-item btn-1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a id="myBtn">Đăng nhập</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu__mobile">
+          <button class="mobile-login_button btn-1 ">Đăng nhập</button>
+          <div class="menu-button menu-item btn-openMenuMobile">
+            <img src="./img/menuMobileButton.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End header -->
+  <div class="content">
+    <!-- SlideShow -->
+    <div class="slideshow" style="margin-top: 78px;">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/slide1.jpg" class="d-block w-100" alt="slide-1.img" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide2.jpg" class="d-block w-100" alt="slide-2.img" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide3.jpg" class="d-block w-100" alt="slide-3.img" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide4.jpg" class="d-block w-100" alt="slide-4.img" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- End SlideShow -->
+
+    <!-- Service 1 -->
+    <div class="service">
+      <div class="service-container">
+        <a href="#">
+          <div class="service__head">
+            <div>
+              <div class="head__title">Trải nghiệm dịch vụ</div>
+              <div class="head__subtitle">
+                Thư giãn 30 phút và bạn sẽ tỏa sáng
+              </div>
+            </div>
+            <div class="head__view-all">
+              <span>Xem tất cả</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="service__banner">
+          <img src="./img/service-banner1.jpg" alt="" />
+        </a>
+        <div class="service__list">
+          <div class="service__list-layout">
+            <div class="list-item">
+              <img src="./img/30shine-cat-goi-massage-2.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Cắt gội massage</div>
+                <div class="item-subTitle">Bảng giá 2022 (hấp dẫn)</div>
+              </a>
+
+              </a>
+            </div>
+            <div class="list-item">
+              <img src="./img/30shine-uon-2.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Uốn nhập khẩu Hàn</div>
+                <div class="item-subTitle">Chỉ từ 287K</div>
+              </a>
+
+              </a>
+            </div>
+            <div class="list-item">
+              <img src="./img/30shine-nhuom-2.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Nhuộm nhập khẩu Ý</div>
+                <div class="item-subTitle">Chỉ từ 206K</div>
+              </a>
+
+            </div>
+            <div class="list-item">
+              <img src="./img/30shine-dich-vu-khac-2.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Dịch vụ khác</div>
+                <div class="item-subTitle">4 dịch vụ</div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service 1 -->
+
+    <!-- Service 2 -->
+    <div class="service">
+      <div class="service-container">
+        <a href="#">
+          <div class="service__head">
+            <div>
+              <div class="head__title">TOP 1 dịch vụ được yêu thích nhất</div>
+              <div class="head__subtitle">
+                ThongBarber - Tự hào lan tỏa phong cách uốn tóc Hàn Quốc tới nam
+                giới Việt
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="service__banner">
+          <img src="./img/service-banner2.jpg" alt="" />
+        </a>
+        <div class="service__list">
+          <div class="service__list-layout">
+            <div class="list-item">
+              <img src="./img/30shine-uon-1.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Thuốc uốn cao cấp nhất</div>
+                <div class="item-subTitle">Được sao Hàn tin dùng</div>
+              </a>
+
+            </div>
+            <div class="list-item">
+              <img src="./img/30shine-uon-2 (1).jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Stylist tay nghề cao</div>
+                <div class="item-subTitle">100% áp dụng công nghệ chuyển giao từ Chuyên gia Hàn</div>
+              </a>
+
+            </div>
+            <div class="list-item">
+              <img src="./img/30shine-uon-3.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Đa dạng phong cách</div>
+                <div class="item-subTitle">Bao đẹp trai với mọi khuôn mặt</div>
+              </a>
+
+            </div>
+            <div class="list-item">
+              <img src="./img/30shine-uon-4.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Công nghệ hiện đại</div>
+                <div class="item-subTitle">Kết hợp nhiều thành phần dưỡng tóc</div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service 2 -->
+
+    <!-- Service 3 -->
+    <div class="service service-3">
+      <div class="service-container">
+        <a href="#">
+          <div class="service__head">
+            <div>
+              <div class="head__title">Lắng nghe & tận tâm</div>
+              <div class="head__subtitle">
+                Thấu hiểu nhu cầu, hỗ trợ nhiệt tình
+              </div>
+            </div>
+          </div>
+        </a>
+        <div class="service__list">
+          <div class="service__list-layout ">
+            <div class="list-item list-item3">
+              <img src="./img/lang-nghe-tan-tam-1.jpg" alt="" class="item-image" style="height: 310px;width:310px" />
+              <a href="#" class="item-title">
+                Nói gì với stylist để anh có kiểu tóc ưng ý
+              </a>
+            </div>
+            <div class="list-item list-item3">
+              <img src="./img/lang-nghe-tan-tam-2.jpg" alt="" class="item-image" style="height: 310px;width:310px" />
+              <a href="#" class="item-title">
+                Supporter thân thiện - Đón tiếp, lắng nghe và hỗ trợ bạn mọi lúc
+              </a>
+            </div>
+            <div class="list-item list-item3">
+              <img src="./img/lang-nghe-tan-tam-3.jpg" alt="" class="item-image" style="height: 310px;width:310px" />
+              <a href="#" class="item-title">
+                Những câu hỏi thường gặp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service 3 -->
+
+    <!-- Service 4 -->
+    <div class="service">
+      <div class="service-container">
+        <a href="./journey.html">
+          <div class="service__head">
+            <div>
+              <div class="head__title">Hành trình toả sáng</div>
+              <div class="head__subtitle">
+                Câu chuyện chân thực từ hàng chục ngàn khách hàng
+              </div>
+            </div>
+            <div class="head__view-all">
+              <span>Xem tất cả</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+        <div class="swiper mySwiper swiper-slide__4">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-5">
+                <img class="rounded-md w-full h-72" src="./img/30shine-thay-doi-ngoai-hinh.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Thay đổi ngoại hình, chàng trai lạnh lùng, ít nói khiến cô hoa khôi rung động
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-5">
+                <img class="rounded-md w-full h-72" src="./img/30shine-nam-sinh-kien-truc-lot-xac.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Can đảm thay đổi mái tóc 7 năm, nam sinh Kiến Trúc lột xác kiểu tóc mới cực đẹp
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-5">
+                <img class="rounded-md w-full h-72" src="./img/30shine-lot-xac-thanh-hot-boy.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Bạn sinh viên IT lột xác thành hot boy vạn người mê
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-5">
+                <img class="rounded-md w-full h-72" src="./img/30shine-toc-mullet.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Phúc lột xác mái tóc để suốt bao năm giúp ngoại hình mới cực cuốn hút
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper mySwiper swiper-slide__4-sm hidden ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+              <div class="w-100 rounded overflow-hidden shadow-lg">
+                <img class="rounded-md w-full h-72" src="./img/30shine-thay-doi-ngoai-hinh.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4 text-center">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Thay đổi ngoại hình, chàng trai lạnh lùng, ít nói khiến cô hoa khôi rung động
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ">
+              <div class="w-100 rounded overflow-hidden shadow-lg">
+                <img class="rounded-md w-full h-72" src="./img/30shine-nam-sinh-kien-truc-lot-xac.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4 text-center">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Can đảm thay đổi mái tóc 7 năm, nam sinh Kiến Trúc lột xác kiểu tóc mới cực đẹp
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ">
+              <div class="w-100 rounded overflow-hidden shadow-lg">
+                <img class="rounded-md w-full h-72" src="./img/30shine-lot-xac-thanh-hot-boy.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4 text-center">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Bạn sinh viên IT lột xác thành hot boy vạn người mê
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ">
+              <div class="w-100 rounded overflow-hidden shadow-lg">
+                <img class="rounded-md w-full h-72" src="./img/30shine-toc-mullet.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4 text-center">
+                  <a href="#" class="text-gray-700 text-xl">
+                    Phúc lột xác mái tóc để suốt bao năm giúp ngoại hình mới cực cuốn hút
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service 4 -->
+
+    <!-- Service 5 -->
+    <div id="barber" class="service service-5">
+      <div class="service-container">
+        <a href="#">
+          <div class="service__head">
+            <div>
+              <div class="head__title">ThongBarber’s Angels</div>
+              <div class="head__subtitle">
+                Những thiên thần xinh đẹp hết lòng vì khách hàng
+              </div>
+            </div>
+            <div class="head__view-all">
+              <span>Xem tất cả</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+        <div class="swiper mySwiper mySwiper-xl ">
+          <div class="swiper-wrapper swiper-wrapper-xl">
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl1.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Tú Anh - 255 Nguyễn An Ninh, Bình Dương</div>
+                    <div class="item-subTitle">Vui vẻ, thân thiện, sẵn sàng</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl2.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Trà My (Mina) - 152 Thống Nhất, Nha Trang </div>
+                    <div class="item-subTitle">Vui vẻ, nhiệt tình, cẩn thận</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl3.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thanh Hồng - 12 Lạc Trung, Hà Nội</div>
+                    <div class="item-subTitle">Xinh xắn, tư vấn khéo, tận tâm</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl4.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Khánh Hằng - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl5.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Ái Hiền - 113 Trần Hưng Đạo, An Giang</div>
+                    <div class="item-subTitle">Vui vẻ, hòa nhã, tư vấn khéo</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl6.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thu Trang - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Hoà đồng, dể thương, vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl7.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Diểm Tuyền - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Cao, đẹp, hiền</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl8.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Mỹ Duyên - 168 Đặng Văn Bi, TP.HCM</div>
+                    <div class="item-subTitle">Vui vẻ, nhiệt tình, dễ gần</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper mySwiper mySwiper-lg hidden ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl1.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Tú Anh - 255 Nguyễn An Ninh, Bình Dương</div>
+                    <div class="item-subTitle">Vui vẻ, thân thiện, sẵn sàng</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl2.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Trà My (Mina) - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ, nhiệt tình, cẩn thận</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl3.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thanh Hồng - 12 Lạc Trung, Hà Nội</div>
+                    <div class="item-subTitle">Xinh xắn, tư vấn khéo, tận tâm</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl4.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Khánh Hằng - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl5.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Ái Hiền - 113 Trần Hưng Đạo, An Giang</div>
+                    <div class="item-subTitle">Vui vẻ, hòa nhã, tư vấn khéo</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl6.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thu Trang - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Hoà đồng, dể thương, vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl7.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Diểm Tuyền - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Cao, đẹp, hiền</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl8.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Mỹ Duyên - 168 Đặng Văn Bi, TP.HCM</div>
+                    <div class="item-subTitle">Vui vẻ, nhiệt tình, dễ gần</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl9.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Như Ý - 168 Đặng Văn Bi, TP.HCM</div>
+                    <div class="item-subTitle">Vui vẻ, hoà đồng, hoạt bát</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper mySwiper mySwiper-md hidden ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl1.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Tú Anh - 255 Nguyễn An Ninh, Bình Dương</div>
+                    <div class="item-subTitle">Vui vẻ, thân thiện, sẵn sàng</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl2.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Trà My (Mina) - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ, nhiệt tình, cẩn thận</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl3.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thanh Hồng - 12 Lạc Trung, Hà Nội</div>
+                    <div class="item-subTitle">Xinh xắn, tư vấn khéo, tận tâm</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl4.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Khánh Hằng - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl5.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Ái Hiền - 113 Trần Hưng Đạo, An Giang</div>
+                    <div class="item-subTitle">Bảng giá 2022 (hấp dẫn)</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl6.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thu Trang - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Hoà đồng, dể thương, vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl7.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thu Trang - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Hoà đồng, dể thương, vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+              <div class="w-50 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl8.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Diểm Tuyền - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Cao, đẹp, hiền</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper mySwiper mySwiper-sm hidden ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl1.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content text-center">
+                    <div class="item-title">Tú Anh - 255 Nguyễn An Ninh, Bình Dương</div>
+                    <div class="item-subTitle">Vui vẻ, thân thiện, sẵn sàng</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl2.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Trà My (Mina) - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ, nhiệt tình, cẩn thận</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl3.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content">
+                    <div class="item-title">Thanh Hồng - 12 Lạc Trung, Hà Nội</div>
+                    <div class="item-subTitle">Xinh xắn, tư vấn khéo, tận tâm</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl4.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content text-center">
+                    <div class="item-title">Khánh Hằng - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl5.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content text-center">
+                    <div class="item-title">Thanh Hồng - 12 Lạc Trung, Hà Nội</div>
+                    <div class="item-subTitle">Xinh xắn, tư vấn khéo, tận tâm</div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl6.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content text-center">
+                    <div class="item-title">Khánh Hằng - 152 Thống Nhất, Nha Trang</div>
+                    <div class="item-subTitle">Vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl7.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content text-center">
+                    <div class="item-title">Ái Hiền - 113 Trần Hưng Đạo, An Giang</div>
+                    <div class="item-subTitle">Vui vẻ, hòa nhã, tư vấn khéo</div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="w-100 rounded overflow-hidden shadow-lg px-2">
+                <img class="rounded-md w-full h-72" src="./img/girl7.jpg" alt="hot_boy_lot_xac">
+                <div class="px-6 py-4">
+                  <a href="#" class="item-content text-center">
+                    <div class="item-title">Thu Trang - 36 Phan Huy Ích, TP.HCM</div>
+                    <div class="item-subTitle">Hoà đồng, dể thương, vui vẻ</div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Service 6 -->
+    <div class="service">
+      <div class="service-container">
+        <a href="#">
+          <div class="service__head">
+            <div>
+              <div class="head__title">Cam kết ThongBarber Care</div>
+              <div class="head__subtitle">
+                Sự hài lòng của anh là ưu tiên hàng đầu của ThongBarber
+              </div>
+            </div>
+            <div class="head__view-all">
+              <span>Xem tất cả</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="service__banner relative overflow-hidden">
+          <div class="title-service-6 absolute z-10 text-center">
+            <div class="head__title head__title-service-6 text-white uppercase">Vì chất lượng khách hàng là hàng đầu
+            </div>
+            <div class="head__subtitle head__subtitle-service-6 text-white text-base p-1">
+              Áp dụng tại salon bất kỳ toàn hệ thống trên toàn quốc
+            </div>
+          </div>
+          <img class="inline-block" src="./img/banner-30shine-care-5.jpg" alt="">
+        </a>
+        <div class="service__list">
+          <div class="service__list-layout">
+            <div class="list-item">
+              <img src="./img/7.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title text-left w-100">7 ngày</div>
+                <div class="item-subTitle">Chỉnh sửa tóc miễn phí</div>
+              </a>
+
+              </a>
+            </div>
+            <div class="list-item">
+              <img src="./img/30day.jpg" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title text-left w-100">30 ngày</div>
+                <div class="item-subTitle">Đổi/ trả hàng miễn phí</div>
+              </a>
+
+              </a>
+            </div>
+            <div class="list-item">
+              <img src="./img/15ngay.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title text-left w-100">15 ngày</div>
+                <div class="item-subTitle">Bảo hành Uốn Nhuộm</div>
+              </a>
+
+            </div>
+            <div class="list-item">
+              <img src="./img/20.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title text-left w-100">Giảm 20%</div>
+                <div class="item-subTitle">Nếu chờ đợi quá lâu</div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End service 6 -->
+
+    <!-- Service 7 -->
+    <div class="service">
+      <div class="service-container">
+        <a href="#">
+          <div class="service__head">
+            <div>
+              <div class="head__title">Tìm ThongBarber gần nhất</div>
+              <div class="head__subtitle">
+                Để xe thuận tiện an toàn, bản đồ dẫn đường chi tiết (79 salon)
+              </div>
+            </div>
+            <div class="head__view-all">
+              <span>Xem tất cả</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+        <div class="service__list">
+          <div class="service__list-layout">
+            <div class="list-item">
+              <img src="./img/salon-hcm.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">TP. Hồ Chí Minh</div>
+                <div class="item-subTitle">40 Salon</div>
+              </a>
+
+              </a>
+            </div>
+            <div class="list-item">
+              <img src="./img/salon-hanoi.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Hà Nội</div>
+                <div class="item-subTitle">16 Salon</div>
+              </a>
+
+              </a>
+            </div>
+            <div class="list-item">
+              <img src="./img/salon-danang.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Đà Nẵng</div>
+                <div class="item-subTitle">1 Salon</div>
+              </a>
+
+            </div>
+            <div class="list-item">
+              <img src="./img/salon-other.png" alt="" class="item-image" />
+              <a href="#" class="item-content">
+                <div class="item-title">Thành phố khác</div>
+                <div class="item-subTitle">20 Salon</div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-black">
+      <div class="footer-wrapper max-w-7xl m-auto">
+        <div class="footer-top flex justify-between">
+          <div class="footer-top-info w-1/3 pt-9">
+            <ul class="footer-top-info__menu">
+              <li class="footer-top-info__item"><span>CÔNG TY TMDV ThongBarber</span></li>
+              <li class="footer-top-info__item"><span>176 Trần Phú, P.Phước Vĩnh, TP.Huế</span></li>
+              <li class="footer-top-info__item"><span>Số giấy chứng nhận kinh doanh: 010.1237.693</span></li>
+              <li class="footer-top-info__item"><span>Ngày cấp: 01/01/2022</span></li>
+              <li class="footer-top-info__item"><span>Nơi cấp: Sở kế hoạch đầu tư TP.Huế</span></li>
+              <li class="footer-top-info__item"><a class="footer-top-info__item-text" href="#">Chính sách bảo mật
+                  thông
+                  tin</a></li>
+              <li class="footer-top-info__item"><a class="footer-top-info__item-text" href="#">Liên hệ quảng cáo
+                  ThongBarber</a></li>
+              <li class="footer-top-info__ca flex items-center py-3">
+                <a href="#">
+                  <img class="moit-icon" src="./img/congthuongicon.png" alt="">
+                </a>
+                <a href="#">
+                  <img class="dmca-icon" src="./img/dmca_protected_26_120.png" alt="">
+                </a>
+              </li>
+              <li class="footer-top-info__cash">
+                <span>Chấp nhận thanh toán</span>
+                <a href="#">
+                  <div class="cash flex">
+                    <a cFlass="cash-mastercard" href="#">
+                      <img src="./img/mastercard.1c44b057.svg" alt="">
+                    </a>
+                    <a class="cash-visa" href="#">
+                      <img src="./img/visa.a04c8520.svg" alt="">
+                    </a>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top-service w-1/3 pt-9">
+            <div class="service-time">
+              <div>
+                <span class="service-time__label">Giờ phục vụ</span>
+              </div>
+              <ul>
+                <li>
+                  <span class="service-time__detail">Thứ 2 đến thứ 6: 8h00 - 21h00</span>
+                </li>
+                <li>
+                  <span class="service-time__detail">Thứ 7, chủ nhật: 7h30 - 21h00</span>
+                </li>
+              </ul>
+            </div>
+            <div class="service-hotline service-hotline__top">
+              <a href="tel:1800282830">
+                <img src="./img/phone-2.c10e8fc8.svg" alt="">
+                <span>HOTLINE: 1800.28.28.30 (Miễn phí)</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-top-app w-1/3 pt-9">
+            <div class="app-info">
+              <span class="app-info__label">TẢI ỨNG DỤNG CỦA THONGBARBER</span>
+              <span class="app-info__detail">Trải nghiệm đặt lịch nhanh chóng và nhiều tiện ích khác với ứng dụng
+                ThongBarber.</span>
+            </div>
+            <div class="app-badge">
+              <div class="badge-item">
+                <a href="#">
+                  <img src="./img/google-play.png" alt="">
+                </a>
+              </div>
+              <div class="badge-item">
+                <a href="#">
+                  <img src="./img//app-store.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="social-info">
+              <div class="app-info">
+                <span class="app-info__label">THAM GIA CỘNG ĐỒNG</span>
+                <span class="app-info__detail">Cùng 2.5tr thành viên ThongBarber</span>
+              </div>
+              <div class="app-badge">
+                <div class="badge-item">
+                  <a href="#">
+                    <img src="./img/tiktok.f8f5f422.svg" alt="">
+                  </a>
+                </div>
+                <div class="badge-item">
+                  <a href="#">
+                    <img src="./img/youtube-social.fb8ca13e.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="service-hotline service-hotline__bottom hidden">
+              <a class="justify-center" href="tel:1800282830">
+                <img src="./img/phone-2.c10e8fc8.svg" alt="">
+                <span>HOTLINE: 1800.28.28.30 (Miễn phí)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom flex">
+          <span class="copyright">Copyright 2022 ThongBarber, Inc. All Rights Reserved</span>
+          <ul class="footer-nav flex">
+            <li class="footer-nav__item"><a href="#">Về ThongBarber</a></li>
+            <li class="footer-nav__item"><a href="#">Tuyển dụng</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal login -->
+  <div id="myModal" class="login-modal hidden">
+    <div class="login-container absolute z-90 flex flex-col rounded-lg shadow-lg bg-white mx-auto">
+      <div class="flex justify-end">
+        <span class="modal-head w-5/6 text-xl text-center uppercase font-bold ">Đăng nhập</span>
+        <button class="btn-close btn-close__login w-1/6" role="button">
+        </button>
+      </div>
+      <div class="modal-sdt text-lg text-center">Số điện thoại của anh là gì ạ?</div>
+      <input type="tel" name="" id="" class="modal-sdt_input text-left " placeholder="Ví dụ: 0912.xxx.xxx">
+      <button type="submit" class="modal-btn__submit justify-center">Tiếp tục</button>
+    </div>
+  </div>
+  <!-- End Modal login -->
+
+  <!-- Float buttons -->
+  <div class="float__buttons">
+    <div class="float__button-close hidden">
+      <i class=" fa-solid fa-xmark"></i>
+    </div>
+    <div class="float__button back-to-top" onclick="scrollToTop()">
+      <div class="float-icon">
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
+    </div>
+    <a href="tel:1800282830" class="float__button call">
+      <div class="float-icon">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+    </a>
+    <a href="https://fb.com/" class="float__button messenger">
+      <div class="float-icon">
+        <i class="fa-brands fa-facebook-messenger"></i>
+      </div>
+    </a>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
