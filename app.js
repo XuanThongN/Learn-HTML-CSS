@@ -62,8 +62,8 @@ $('.float__button-close').click(function (){
   $(".float__button-close").hide();
 });
 
-// function scrollToTop() {
-//             window.scrollTo(0, 0);
-// }
+function scrollToTop() {
+            window.scrollTo(0, 0);
+}
 
 
