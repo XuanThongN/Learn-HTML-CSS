@@ -790,6 +790,9 @@ a:hover {
   .nav-logo a {
     font-size: 22px;
   }
+  .nav-menu .menu-item {
+    margin: 30px 0;
+}
   .nav-menu .menu-item a::after {
     right: 50px;
   }
@@ -797,7 +800,7 @@ a:hover {
     font-size: 13px;
   }
   .icon-mb {
-    margin: 2px 8px;
+    margin: 2px;
   }
 
   .head__title-service-6 {
